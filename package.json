@@ -1,0 +1,21 @@
+{
+  "name": "swaglabs-playwright-ac",
+  "version": "1.0.0",
+  "description": "https://www.saucedemo.com/v1/",
+  "main": "index.js",
+  "scripts": {
+    "test:development": "cross-env ENV='development' npx playwright test --project=test",
+    "test:staging": "cross-env ENV='staging' npx playwright test --project=test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.0",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
